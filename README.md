@@ -6,6 +6,10 @@ Redmine uses CodeRay for code syntax highlighting.  The Redmine jsToolbar CodeRa
 
 ![Buttons](https://raw.githubusercontent.com/tleish/redmine_jstoolbar_ext_coderay/master/assets/images/screenshot.png)
 
+## Requirements
+
+This plugin requires the [Redmine jsToolbar Ext plugin](https://github.com/tleish/redmine_jstoolbar_ext) to also be installed.
+
 ## Installation
 
 ```
