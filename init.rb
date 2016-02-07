@@ -6,7 +6,7 @@ Redmine::Plugin.register :redmine_jstoolbar_ext_coderay do
   author 'Thomas Leishman'
   description 'The Redmine JS Toolbar Coderay Extension adds a CodeRay button and submenu to the jsToolbar.'
   version '0.2.0'
-  url 'https://github.com/tleish'
+  url 'https://github.com/tleish/redmine_jstoolbar_ext_coderay'
   author_url 'https://github.com/tleish'
   requires_redmine_plugin :redmine_jstoolbar_ext, :version_or_higher => '0.1.0'
 end
