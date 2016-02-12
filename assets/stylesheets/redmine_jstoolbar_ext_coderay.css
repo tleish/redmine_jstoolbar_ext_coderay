@@ -1,4 +1,4 @@
 .jstb_coderay { background-image: url('../images/jstb_coderay.png') }
-.jstb_coderay_submenu { width: 240px; z-index:1; }
+.jstb_coderay_submenu { width: 240px; }
 .jstb_coderay_submenu button { width: 80px; text-align: center; margin: 0;}
 .jstb_coderay_submenu button span{ width: 100%; display: inherit; }
