@@ -47,7 +47,7 @@
 
       switch (type) {
         case 'textile':
-          beg = '<pre><code class="' + language + '>\n';
+          beg = '<pre><code class="' + language + '">\n';
           end = '\n</code></pre>';
           break;
         case 'markdown':
