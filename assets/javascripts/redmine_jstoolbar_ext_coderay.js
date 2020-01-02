@@ -42,7 +42,21 @@
     };
 
     var button_data = function(language){
-      return  { label: language, beg: '<pre><code class="' + language + '">\n', end: '\n</code></pre>' };
+      var type = RedmineWikiToolbarExt.Markup.type(),
+          beg = '', end = '';
+
+      switch (type) {
+        case 'textile':
+          beg = '<pre><code class="' + language + '">\n';
+          end = '\n</code></pre>';
+          break;
+        case 'markdown':
+          beg = '~~~ ' + language + '\n';
+          end = '\n~~~';
+          break;
+      }
+
+      return  { label: language, beg: beg, end: end };
     };
 
     var build_button = function (data) {
